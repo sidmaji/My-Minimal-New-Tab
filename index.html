@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/nerd-fonts/2.1.0/css/fira-code.min.css');
+        body {
+            font-family: 'FiraCode Nerd Font', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background: rgb(39, 40, 34);
+            color: rgb(248, 248, 242);
+            text-align: center;
+        }
+        .clock {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+        .label {
+            color: rgb(224, 108, 117);
+        }
+    </style>
+</head>
+<body>
+    <div class="clock" id="clock">00:00 AM</div>
+    <div class="info"><span class="label">Weather:</span> <span id="weather">Loading weather...</span></div>
+    <div class="info"><span class="label">Status:</span> <span id="discord-status">Loading Discord status...</span></div>
+</body>
+</html>
