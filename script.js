@@ -1,5 +1,5 @@
-const WEATHER_API_KEY = '24d406821e2317c7855432c7f0b2a7a0';
-const DISCORD_USER_ID = '832420003432103958';
+const WEATHER_API_KEY = 'YOUR API KEY';
+const DISCORD_USER_ID = 'YOUR DISCORD USER ID';
 
 function updateClock() {
     const now = new Date();
